@@ -9,19 +9,14 @@ def main(args):
                 lista.sort()
                 if len(lista) == 1:
                     print(lista[0])
-                elif len(lista) == 2:
-                    t = round((lista[0] + lista[1])/2)
-                    print(t)
                 elif len(lista)%2 != 0:
                     mid = int(len(lista)/2)
                     print(lista[mid])
                 else:
-                    mid = int(len(lista) / 2)
-                    a = lista[mid-1]
-                    b = lista[mid]
-                    c = math.floor((a+b)/2)
-                    print(round(c))
-
+                    a = lista[int(len(lista) / 2)-1]
+                    b = lista[int(len(lista) / 2)]
+                    c = ((int(a+b)/2))
+                    print(math.floor(c))
 
                 line = input()
 
