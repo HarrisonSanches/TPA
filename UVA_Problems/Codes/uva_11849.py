@@ -1,17 +1,18 @@
+import sys
 def main(args):
-    teste = input()
-    while teste.split() [0]!= '0' and teste.split()[1] != '0':
-        teste = teste.split()
+    teste = sys.stdin.readline().split()
+
+    while teste[0] != '0' and teste[1] != '0':
         quantidade = int(teste[0]) + int(teste[1])
-        cds = []
+
+        cds = set()
         i = 0
         while i < quantidade:
-            linha = input()
-            cds.append(linha)
+            cds.add(sys.stdin.readline())
             i += 1
 
         print(quantidade - len(set(cds)))
-        teste = input()
+        teste = sys.stdin.readline().split()
 
 
 
