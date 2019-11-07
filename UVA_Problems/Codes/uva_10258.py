@@ -37,19 +37,22 @@ def order(lst):
                     lst[i] = lst[j]
                     lst[j] = tmp
 
-def compara(jogador1, jogador2):
-    if jogador1.qcertas > jogador2.qcertas :
-        return True
-    elif (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo < jogador2.tempo):
-        return True
-    elif  (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo == jogador2.tempo) and (jogador1.jogador < jogador2.jogador):
-      return True
+# def compara(jogador1, jogador2):
+#     if jogador1.qcertas > jogador2.qcertas :
+#         return True
+#     elif (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo < jogador2.tempo):
+#         return True
+#     elif  (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo == jogador2.tempo) and (jogador1.jogador < jogador2.jogador):
+#       return True
+#
+#     else:
+#         return False
 
-    else:
-        return False
-
-
-
+def compara2(jogador1):
+    criterio1 = -jogador1.qcertas
+    criterio2 = jogador1.tempo
+    criterio3 = jogador1.jogador
+    return criterio1, criterio2, criterio3
 
 def main (args):
     quantidade = int(sys.stdin.readline())
@@ -58,9 +61,6 @@ def main (args):
         sys.stdin.readline()
         linha = sys.stdin.readline().rstrip()
         lista = []
-        lista_zerada = []
-        cont1 = 0
-        cont2 = 0
         while linha != "":
             linha = [x.rstrip() for x in linha.split(" ")]
             if linha[-1] == "I":
@@ -71,7 +71,6 @@ def main (args):
                     jogador = Jogador(int(linha[0]), 0, 20)
                     lista.append(jogador)
 
-                cont1 += 1
             elif linha[-1] == "C":
                 is_in, index = jogador_in(lista, int(linha[0]))
                 if is_in:
@@ -81,8 +80,6 @@ def main (args):
                     jogador = Jogador(int(linha[0]), 1, int(linha[2]))
                     lista.append(jogador)
 
-                cont2 += 1
-
             else:
                 is_in, index = jogador_in(lista, int(linha[0]))
                 if not is_in:
@@ -91,7 +88,9 @@ def main (args):
 
             linha = sys.stdin.readline().rstrip()
 
-        a = sorted(lista, key = cmp_to_key(compara))
+
+        a = sorted(lista, key=compara2)
+
         for item in a:
             (print(item))
         print()

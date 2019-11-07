@@ -4,6 +4,7 @@
     <list default="true" id="83b49c97-45f9-407e-bb98-2298b3d1f561" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/uva_10258.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/uva_10258.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input_data/uva_10258" beforeDir="false" afterPath="$PROJECT_DIR$/Input_data/uva_10258" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,7 @@
       <workItem from="1572985515094" duration="2620000" />
       <workItem from="1573068996575" duration="3715000" />
       <workItem from="1573141944872" duration="49000" />
-      <workItem from="1573144594779" duration="3283000" />
+      <workItem from="1573144594779" duration="5795000" />
     </task>
     <servers />
   </component>
