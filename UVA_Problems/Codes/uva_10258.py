@@ -1,4 +1,5 @@
 import sys
+from functools import cmp_to_key
 class Jogador:
 
     def __init__(self, a, b, tempo):
@@ -36,6 +37,20 @@ def order(lst):
                     lst[i] = lst[j]
                     lst[j] = tmp
 
+def compara(jogador1, jogador2):
+    if jogador1.qcertas > jogador2.qcertas :
+        return True
+    elif (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo < jogador2.tempo):
+        return True
+    elif  (jogador1.qcertas == jogador2.qcertas) and (jogador1.tempo == jogador2.tempo) and (jogador1.jogador < jogador2.jogador):
+      return True
+
+    else:
+        return False
+
+
+
+
 def main (args):
     quantidade = int(sys.stdin.readline())
 
@@ -43,6 +58,7 @@ def main (args):
         sys.stdin.readline()
         linha = sys.stdin.readline().rstrip()
         lista = []
+        lista_zerada = []
         cont1 = 0
         cont2 = 0
         while linha != "":
@@ -68,26 +84,17 @@ def main (args):
                 cont2 += 1
 
             else:
-                jogador = Jogador(int(linha[0]), 0, 0)
-                lista.append(jogador)
+                is_in, index = jogador_in(lista, int(linha[0]))
+                if not is_in:
+                    jogador = Jogador(int(linha[0]), 0, 0)
+                    lista.append(jogador)
 
             linha = sys.stdin.readline().rstrip()
 
-        print(cont1)
-        if cont1 == 0 and cont2 == 0:
-            ordena_zerados(lista)
-            for item in lista:
-                (print(item))
-        else:
-            order(lista)
-            for item in lista:
-                print(item)
+        a = sorted(lista, key = cmp_to_key(compara))
+        for item in a:
+            (print(item))
         print()
-
-    #lista.sort(key=lambda jogador: (jogador.qcertas, jogador.tempo), reverse = True)
-
-
-
 
 
     return 0
