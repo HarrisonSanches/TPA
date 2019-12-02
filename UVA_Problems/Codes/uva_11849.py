@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_11849 - CD
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 import sys
 def main(args):
     teste = sys.stdin.readline().split()
