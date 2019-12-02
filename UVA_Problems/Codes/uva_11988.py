@@ -1,5 +1,5 @@
 """
-Exercicio resolvido: uva11988 - BrokenKeyboard
+Exercicio resolvido: uva_11988 - BrokenKeyboard
 Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
 
 """
