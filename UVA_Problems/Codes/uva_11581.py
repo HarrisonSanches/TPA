@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_11581 - Grid Successors
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 def cria_matriz():
     matriz = []
     for i in range(3):
