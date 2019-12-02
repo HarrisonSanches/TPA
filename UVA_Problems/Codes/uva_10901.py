@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva10038 – Ferry Loading III
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 import sys
 inputn = sys.stdin.readline
 C = int(inputn())
