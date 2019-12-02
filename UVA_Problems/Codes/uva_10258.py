@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva10038 – Contested ScoreBOard
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 import sys
 from functools import cmp_to_key
 class Jogador:
