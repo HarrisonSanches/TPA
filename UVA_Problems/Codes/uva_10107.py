@@ -1,3 +1,7 @@
+"""
+Exercicio resolvido: uva_10107 - What is the Median?
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+"""
 import math
 def main(args):
     while True:
