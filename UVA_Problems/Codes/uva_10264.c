@@ -1,7 +1,7 @@
-/* """
+/*
 Exercicio resolvido: uva_10264 - The most potent corner
 Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
-"""*/
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
