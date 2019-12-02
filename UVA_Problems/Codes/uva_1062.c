@@ -1,6 +1,6 @@
 /*
-Exercicio resolvido: uva_00939 - Rails
-Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+Exercicio resolvido: uva_01062 - Conteiners
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
 */
 
 #include <stdio.h>
