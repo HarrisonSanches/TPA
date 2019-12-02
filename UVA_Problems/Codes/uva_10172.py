@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_00939 - The Lonesome Cargo Distributor
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+"""
+
 from sys import stdin, stdout
 input = stdin.readline
 SET = int(input())
