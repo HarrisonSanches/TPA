@@ -1,5 +1,5 @@
 """
-Exercicio resolvido: uva11988 - BrokenKeyboard
+Exercicio resolvido: uva10920 -Spiral Tap
 Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
 
 """
