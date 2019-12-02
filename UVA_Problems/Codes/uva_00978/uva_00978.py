@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_00978 - Lemming batle! 
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+"""
+
 from sys import stdin
 from bisect import insort
 
