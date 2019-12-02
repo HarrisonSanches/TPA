@@ -1,3 +1,8 @@
+/*
+Exercicio resolvido: uva_00939 - Rails
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
