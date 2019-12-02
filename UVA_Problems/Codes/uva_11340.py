@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva11340 - Newsapers
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 def main(args):
     try:
         tests = int(input())
