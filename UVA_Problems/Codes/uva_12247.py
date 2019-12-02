@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_12247 - JOllo
+Autores: Leonardo Laia Arpini, Harrison Sanches, Matheus Garcias
+
+"""
 def condicao(carta1, carta2, carta3, carta4, carta5):
     if carta1 > carta4:
         if carta2 > carta5:
