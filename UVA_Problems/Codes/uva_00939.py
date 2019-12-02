@@ -1,5 +1,5 @@
 """
-Exercicio resolvido: uva11988 - BrokenKeyboard
+Exercicio resolvido: uva_00939 - Genes
 Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
 
 """
