@@ -1,3 +1,8 @@
+"""
+Exercicio resolvido: uva_00939 - Rails
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+"""
+
 peek = lambda x: x[len(x)-1]
 pop = lambda x: x.pop(len(x)-1)
 push = lambda x, y: x.append(y)
