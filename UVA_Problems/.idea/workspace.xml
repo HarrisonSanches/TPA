@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b49c97-45f9-407e-bb98-2298b3d1f561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Codes/uva_10920.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UVA_Problems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UVA_Problems.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/uva _12247.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/uva_10258.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/uva_10258.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/uva_10920.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/uva_10920.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input_data/uva_10258" beforeDir="false" afterPath="$PROJECT_DIR$/Input_data/uva_10258" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input_data/uva_10920" beforeDir="false" afterPath="$PROJECT_DIR$/Input_data/uva_10920" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +67,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.uva_10038">
+  <component name="RunManager" selected="Python.uva _12247 (1)">
+    <configuration name="uva _12247 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UVA_Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/uva _12247.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="uva _12247" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UVA_Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,8 +134,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="uva_10258" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UVA_Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/uva_10258.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.uva _12247 (1)" />
+        <item itemvalue="Python.uva_10258" />
         <item itemvalue="Python.uva_10038" />
         <item itemvalue="Python.uva _12247" />
       </list>
@@ -126,6 +192,16 @@
       <workItem from="1573068996575" duration="3715000" />
       <workItem from="1573141944872" duration="49000" />
       <workItem from="1573144594779" duration="10604000" />
+      <workItem from="1574622269116" duration="1694000" />
+      <workItem from="1574624530249" duration="7812000" />
+      <workItem from="1574640337175" duration="9301000" />
+      <workItem from="1574652854237" duration="58000" />
+      <workItem from="1574652924603" duration="1566000" />
+      <workItem from="1574654691766" duration="2266000" />
+      <workItem from="1575223231176" duration="216000" />
+      <workItem from="1575235149166" duration="1087000" />
+      <workItem from="1575241152483" duration="2000" />
+      <workItem from="1575243464277" duration="638000" />
     </task>
     <servers />
   </component>
@@ -146,7 +222,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UVA_Problems$uva__12247__1_.coverage" NAME="uva _12247 (1) Coverage Results" MODIFIED="1574652899905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codes" />
     <SUITE FILE_PATH="coverage/UVA_Problems$uva__12247.coverage" NAME="uva _12247 Coverage Results" MODIFIED="1571854411487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UVA_Problems$uva_10258.coverage" NAME="uva_10258 Coverage Results" MODIFIED="1574623580920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codes" />
     <SUITE FILE_PATH="coverage/UVA_Problems$uva_10038.coverage" NAME="uva_10038 Coverage Results" MODIFIED="1572381408043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
