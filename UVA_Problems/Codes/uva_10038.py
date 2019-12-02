@@ -1,3 +1,7 @@
+"""
+Exercicio resolvido: uva_00939 - Jolly Jumpers
+Autores: Leonardo Laia Arpini, Harrison Sanches, Mathues Garcias
+"""
 def main(args):
     while True:
         try:
